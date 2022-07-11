@@ -1,0 +1,71 @@
+.navbar {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 2rem;
+
+    &__logo {
+        justify-self: flex-start;
+        height: 3rem;
+        width: 2.5rem;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        @media (max-width: 400px){
+            gap: 7px;
+        }
+
+        .navbar__link {
+            color: #a0a3a7;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+
+            &:hover{
+                color: #8f9bad;
+            }
+
+            @media (max-width: 400px){
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    &__download-btn {
+        justify-self: flex-end;
+        width: 10rem;
+        height: 3.12rem;
+        border: none;
+        border-radius: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #a0a3a7;
+        }
+
+        @media (max-width: 400px){
+            width: 8rem;
+            height: 2rem;
+            font-size: 0.7rem;
+        }
+
+        @media (max-width: 340px){
+            width: auto;
+            height: auto;
+            font-size: 0.7rem;
+        }
+    }
+
+    @media(max-width: 630px){
+        padding: 0.5rem;
+        column-gap: 7px;
+    }
+}
