@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a159f8be.css",
+    "main.js": "./static/js/main.b83093a7.js",
+    "static/media/logo.svg": "./static/media/logo.12055ed8595919c0d779e2c5b170c003.svg",
+    "index.html": "./index.html",
+    "static/media/ellipse-active.svg": "./static/media/ellipse-active.7327a4aa346a13883adb.svg",
+    "static/media/ellipse.svg": "./static/media/ellipse.be45a684d120b61fd232.svg",
+    "main.a159f8be.css.map": "./static/css/main.a159f8be.css.map",
+    "main.b83093a7.js.map": "./static/js/main.b83093a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a159f8be.css",
+    "static/js/main.b83093a7.js"
+  ]
+}
