@@ -13,3 +13,9 @@
 ## Running:
 
     npm start
+
+## Preview:
+
+    https://igorslepenkov.github.io/react-power-implicity/
+
+![Screenshot](./src/assets/screenshot.png)
