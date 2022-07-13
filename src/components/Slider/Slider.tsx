@@ -8,7 +8,9 @@ const Slider = () => {
         Instead of spending time searching for the right app, our AI will bring
         the right app to you.
       </p>
-      <button className="slider__learn-btn">Learn</button>
+      <button className="slider__learn-btn" type="button">
+        Learn
+      </button>
       <ul className="slider__dots">
         <li className="slider__dot">
           <input

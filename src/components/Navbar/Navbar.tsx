@@ -1,30 +1,34 @@
 import "./styles.scss";
-import logo from "../../assets/apple-logo.png";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 
 const Navbar = () => {
   return (
     <header className="navbar">
-      <img className="navbar__logo" src={logo} alt="Logo" />
+      <Logo />
 
-      <ul className="navbar__links">
-        <li>
-          <a className="navbar__link" href="#">
-            Features
-          </a>
-        </li>
-        <li>
-          <a className="navbar__link" href="#">
-            Partners
-          </a>
-        </li>
-        <li>
-          <a className="navbar__link" href="#">
-            Stories
-          </a>
-        </li>
-      </ul>
+      <nav className="navbar__navigation">
+        <ul className="navbar__links-list">
+          <li className="navbar__links-item">
+            <a className="navbar__link" href="./">
+              Features
+            </a>
+          </li>
+          <li className="navbar__links-item">
+            <a className="navbar__link" href="./">
+              Partners
+            </a>
+          </li>
+          <li className="navbar__links-item">
+            <a className="navbar__link" href="./">
+              Stories
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-      <button className="navbar__download-btn">Download for free</button>
+      <button className="navbar__download-btn" type="button">
+        Download for free
+      </button>
     </header>
   );
 };
